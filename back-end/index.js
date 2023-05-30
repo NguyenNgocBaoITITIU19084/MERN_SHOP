@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 const MongoDB = require("./db/MongoDB");
-const ErrorHandler = require("./utils/ErrorHandler");
+const ErrorHandler = require("./middleware/error");
 
 // Import Router
 const user = require("./controller/user");
